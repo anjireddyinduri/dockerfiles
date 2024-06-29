@@ -1,3 +1,3 @@
 FROM almalinux:9
-RUN dnf install ngnix -y
-CMD ["ngnix","-g","daemon off;"]
+RUN docker pull accuknoxns/ngnix -y
+#CMD ["ngnix","-g","daemon off;"]
