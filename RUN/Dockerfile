@@ -1,2 +1,2 @@
 FROM almalinux:9
-RUN yum install ngnix -y
+RUN dnf install http -y
