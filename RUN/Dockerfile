@@ -1,2 +1,2 @@
 FROM almalinux:9
-RUN dnf install curl -y
+RUN dnf install jdk -y
