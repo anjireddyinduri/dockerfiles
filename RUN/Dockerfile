@@ -1,3 +1,3 @@
 FROM almalinux:9
-RUN yum install ngnix -y
+RUN dnf install ngnix -y
 CMD ["ngnix","-g","daemon off;"]
