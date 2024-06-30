@@ -1,5 +1,6 @@
 FROM almalinux:9
+RUN /bin/sh -c set -x     && groupadd --system --gid 101 nginx 
 
-RUN dnf install sha256:678226242061e7dd8c007c32a060b7695318f4571096cbeff81f84e50787f581 -y
+RUN dnf install accuknoxns/ngnix:latest -y
 #RUN /bin/sh -c set -x
 
