@@ -1,4 +1,4 @@
-FROM RHEL:7
+FROM almalinux:9
 
 #RUN yum sha256:678226242061e7dd8c007c32a060b7695318f4571096cbeff81f84e50787f581 -y
 #RUN /bin/sh -c set -x
