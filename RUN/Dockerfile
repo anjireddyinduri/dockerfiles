@@ -1,4 +1,4 @@
 FROM almalinux:9
-RUN dnf install accuknoxns/ngnix:latest -y
+RUN dnf install sivanji1979/ngnix:latest -y
 
 
