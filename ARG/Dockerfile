@@ -1,3 +1,3 @@
 ARG version
 FROM almalinux:${version}
-RUN /etc/*release
+#RUN /etc/*release
